@@ -1,9 +1,10 @@
 import unittest
 from rectangle import Rectangle
 
+
 class TestGetAreaRectangle(unittest.TestCase):
     def setUp(self):
-        self.rectangle = Rectangle(0,0)
+        self.rectangle = Rectangle(0, 0)
 
     def test_normal_case(self):
         self.rectangle.set_width(3)
