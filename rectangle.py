@@ -3,14 +3,11 @@ class Rectangle:
         self.width = width
         self.height = height
 
-
     def set_width(self, width):
         self.width = width
 
-
     def set_height(self, height):
         self.height = height
-
 
     def get_area(self):
         if self.width < 0 or self.height < 0:
